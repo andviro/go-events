@@ -9,7 +9,7 @@ the most efficient way to implement pubsub/observer/event system.
 The main point of Event[T] object is to be usable without initialization and to
 not require calling of closer method. Disposing of resources is handled by
 client which must call closer function. For example usage, also see
-[advanced example](https://github.com/andviro/go-events/blob/master/_examples/advanced.go):
+[advanced example](https://github.com/andviro/go-events/blob/master/_example/advanced.go):
 
 ```go
 // instantiate Event object
