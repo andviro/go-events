@@ -1,7 +1,7 @@
 # go-events
 
 Simple callback-based events modeled after C# events. Implementation is based on
-brilliant imkira/go-observer package. See its README for explanation why it's
+brilliant [imkira/go-observer](https://github.com/imkira/go-observer) package. See its README for explanation why it's
 the most efficient way to implement pubsub/observer/event system.
 
 ## Zero initialization
